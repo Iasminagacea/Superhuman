@@ -1,0 +1,110 @@
+.hero-graphics {
+    position: absolute;
+    width: 624px;
+    height: 587px;
+    left: 771px;
+    top: 213px;
+  }
+  
+  .ellipse {
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    left: 445px;
+    top: 54px;
+    background: #FBEDE5;
+    border-radius: 50%;
+  }
+  
+  .rectangle {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 548px;  /* Adjusted from 445px */
+    top: 485px;    /* Adjusted from -102px */
+    background: #FF6602;
+    border-radius: 4px;
+    z-index: 1;
+  } 
+  
+  .photos-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo-2 {
+    position: absolute;
+    width: 406px;
+    height: 466px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .photo-1 {
+    position: absolute;
+    width: 406px;
+    height: 466px;
+    left: 184px;
+    top: 121px;
+    object-fit: cover;
+  }
+  
+  .pattern {
+    position: absolute;
+    width: 102px;
+    height: 118px;
+    left: 32px;
+    top: 370px;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .dot {
+    width: 6px;
+    height: 6px;
+    background: #D8D8D8;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 1400px) {
+    .hero-graphics {
+      transform: scale(0.9);
+      left: 650px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .hero-graphics {
+      transform: scale(0.8);
+      left: 550px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .hero-graphics {
+      transform: scale(0.7);
+      left: 450px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-graphics {
+      position: relative;
+      transform: scale(0.6);
+      left: 0;
+      top: 50px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-graphics {
+      transform: scale(0.5);
+      top: 30px;
+    }
+  }

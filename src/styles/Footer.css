@@ -1,0 +1,473 @@
+/* src/styles/Footer.css */
+.footer-cta {
+    position: absolute;
+    width: 1600px;
+    height: 423px;
+    left: 0;
+    top: 5510px;
+    background: #008BE6;
+    overflow: hidden;
+}
+
+/* Add new styles for the footer image */
+.footer-box {
+    position: absolute;
+    width: 1600px;
+    height: 660px;
+    left: 0;
+    top: 5933px; /* 5510px + 423px */
+    overflow: hidden;
+}
+
+.rectangle9-footer {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+  .bg-artefacts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .cta-heading {
+    position: absolute;
+    left: 12.81%;
+    right: 15.12%;
+    top: 27.24%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  
+  .cta-button-container {
+    position: absolute;
+    left: 71.48%;
+    right: 13.19%;
+    top: 35.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .cta-button {
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .email-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cta-button span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    color: #455880;
+  }
+  
+  .cta-subtext {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: right;
+    color: #DFE0EB;
+    margin-top: 15px;
+    white-space: nowrap;
+  }
+  
+.highlight-text {
+    color: #FED385;
+  }
+  
+  .footer-line {
+    position: absolute;
+    left: 200px; 
+    top: 340px; 
+  }
+
+  @media (max-width: 1600px) {
+    .footer-cta {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-cta {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .cta-heading {
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .cta-button-container {
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      align-items: center;
+    }
+  
+    .cta-button {
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .cta-subtext {
+      text-align: center;
+    }
+  }
+
+
+  /* src/styles/Footer.css */
+.footer-logo {
+    position: absolute;
+    left: calc(12.81% + 1px);
+    top: 20px;
+    height: 53px;
+    width: auto;
+    z-index: 2;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-logo {
+      left: 20px;
+      top: 400px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-logo {
+      height: 35px;
+    }
+  }
+
+  .footer-description {
+    position: absolute;
+    left: 12.75%;
+    right: 67.88%;
+    top: 100px; /* Adjusted from 27.99% to position below the logo */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #FFFFFF;
+    width: 320px; /* Added to control text width */
+}
+
+/* Add responsive styling */
+@media (max-width: 768px) {
+    .footer-description {
+        width: 90%;
+        left: 20px;
+        right: 20px;
+        top: 460px; /* Adjusted to position below logo on mobile */
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-description {
+        font-size: 14px;
+        top: 440px;
+    }
+}
+
+
+/*Column 2 -> Pages Column*/
+
+.footer-pages {
+    position: absolute;
+    left: 43.62%;
+    right: 43.12%;
+    top: 50px;
+    bottom: 41.67%;
+}
+
+.pages-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 76.97%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.pages-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 225%;
+    color: #FBEDE5;
+}
+
+.pages-list li {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footer-pages {
+        left: 20px;
+        top: 580px;
+    }
+    
+    .pages-title {
+        font-size: 20px;
+    }
+    
+    .pages-list {
+        font-size: 16px;
+    }
+}
+
+/*Column 3 -> Demos Column */
+
+.footer-demos {
+    position: absolute;
+    left: 57.81%;
+    right: 28.94%;
+    top: 50px;
+    bottom: 41.67%;
+}
+
+.demos-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 76.97%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.demos-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 225%;
+    color: #FBEDE5;
+}
+
+.demos-list li {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footer-demos {
+        left: 20px;
+        top: 800px;
+    }
+    
+    .demos-title {
+        font-size: 20px;
+    }
+    
+    .demos-list {
+        font-size: 16px;
+    }
+}
+
+/*Column 4 -> Resources Column */
+
+/* src/styles/Footer.css */
+.footer-resources {
+    position: absolute;
+    left: 73.19%;
+    right: 13.25%;
+    top: 50px;
+    bottom: 41.67%;
+}
+
+.resources-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 76.97%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.social-icons {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.resources-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 225%;
+    color: #FBEDE5;
+}
+
+.resources-list li {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footer-resources {
+        left: 20px;
+        top: 1020px;
+    }
+    
+    .resources-title {
+        font-size: 20px;
+    }
+    
+    .resources-list {
+        font-size: 16px;
+    }
+    
+    .social-icons {
+        gap: 12px;
+    }
+    
+    .social-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/*Footer Copyright*/
+
+.footer-copyright {
+    position: absolute;
+    left: 12.75%;
+    right: 50.81%;
+    top: 78.03%;
+    bottom: 16.21%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #F2F9FF;
+}
+
+@media (max-width: 768px) {
+    .footer-copyright {
+        left: 20px;
+        top: 1200px;
+        font-size: 12px;
+    }
+}
+
+/*Privacy links*/
+
+.footer-privacy-links {
+    position: absolute;
+    left: 50.31%;
+    right: 13.25%;
+    top: 78.03%;
+    bottom: 16.21%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: right;
+    color: #FFD98E;
+}
+
+.footer-privacy-links span {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.footer-privacy-links span:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-privacy-links {
+        left: 20px;
+        right: 20px;
+        top: 1240px;
+        text-align: center;
+    }
+    
+    .footer-privacy-links span {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}

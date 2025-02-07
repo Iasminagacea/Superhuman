@@ -1,0 +1,70 @@
+.video-section {
+    position: absolute;
+    width: 1094px;
+    height: 570px;
+    left: 253px;
+    top: 2313px;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 1021px;
+    height: 570px;
+    border-radius: 36px;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    height: 570px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    border-radius: 36px;
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9DA3E9;
+    mix-blend-mode: soft-light;
+    opacity: 0.57;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .video-section {
+      width: 90%;
+      left: 5%;
+      height: auto;
+    }
+  
+    .carousel {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .play-button {
+      width: 80px;
+      height: 80px;
+      right: 20px;
+    }
+  
+    .play-circle {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .play-icon {
+      width: 16px;
+      height: 18px;
+      left: 52px;
+      top: 32px;
+    }
+  }

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Books",
+        "icon": "/Images/books.png",
+        "description": "A collection of written works spanning genres, cultures, and eras, offering knowledge and entertainment."
+    },
+    {
+        "name": "Travel",
+        "icon": "/Images/travel.png",
+        "description": "Exploring new destinations, cultures, and adventures to create unforgettable memories and broaden perspectives."
+    },
+    {
+        "name": "Products",
+        "icon": "/Images/products.png",
+        "description": "An assortment of goods designed to meet your needs, enhance your lifestyle, and simplify daily tasks."
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "image": "/Images/content.png",
+        "name": "Content",
+        "description": "Get beautiful and\nintuitive digital\nproducts"
+    },
+    {
+        "image": "/Images/video_classes.png",
+        "name": "Video Classes",
+        "description": "Find out what your\naudience needs."
+    },
+    {
+        "image": "/Images/books_house.png",
+        "name": "Books",
+        "description": "Evolve your brand\ncommunication."
+    }
+]

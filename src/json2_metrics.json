@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "/Images/hours_members_apps_awards.png",
+        "number": 500,
+        "description": "Hours of work"
+    },
+    {
+        "icon": "/Images/hours_members_apps_awards.png",
+        "number": 80,
+        "description": "Happy members"
+    },
+    {
+        "icon": "/Images/hours_members_apps_awards.png",
+        "number": 75,
+        "description": "Launched apps"
+    },
+    {
+        "icon": "/Images/hours_members_apps_awards.png",
+        "number": 12,
+        "description": "Design awards"
+    }
+]

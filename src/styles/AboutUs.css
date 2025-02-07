@@ -1,0 +1,260 @@
+
+.about-us {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-us-text {
+  position: absolute;
+  height: 120px;
+  left: 12%; /* Reduced from 14.88% */
+  right: 54.56%;
+  top: 2140px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 105%;
+  color: #32435F;
+}
+
+.about-us-description {
+  position: absolute;
+  width: 440px;
+  height: 194px;
+  left: 180px; /* Reduced from 238px */
+  top: 2287px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #455880;
+}
+
+.about-us-image {
+  position: absolute;
+  width: 440px;
+  height: 350px;
+  left: 180px; /* Reduced from 238px */
+  top: 2472px; /* 2287px + 185px as requested */
+}
+
+.woman-image {
+  width: 75px;
+  height:75px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.signature-image {
+  position: absolute;
+  left: 83px;
+  top: -10px;
+  height: auto;
+}
+
+.ceo-text {
+  position: absolute;
+  width: 100px;
+  height: 21px;
+  left: 220px;
+  top: 30px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #455880;
+}
+
+.what-we-can-do-button {
+  position: absolute;
+  width: 232px;
+  height: 50px;
+  left: 180px; /* Reduced from 238px */
+  top: 2576px; /* 2472px + 104px */
+  cursor: pointer;
+}
+
+.what-we-can-do-rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #008BE6;
+  border-radius: 100px;
+}
+
+.what-we-can-do-text {
+  position: absolute;
+  left: 40px;
+  right: 15.2%;
+  top: 34%;
+  bottom: 34%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content-boxes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  top: 2178px;
+  left: 650px; /* Reduced from 750px */
+}
+
+.bg-boxes-about-us {
+  position: absolute;
+  width: 854px;
+  height: 1054px;
+  left: 666px; /* Reduced from 766px */
+  top: 1800px;
+  background-image: url("D:\IASMINA\Practica\PROIECT FIGMA 2\figma2\public\Images\bg_boxes_about_us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.content-boxes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  top: 2178px;
+  left: 650px; /* Reduced from 750px */
+  z-index: 1;
+}
+
+/* Content box */
+.content-boxes > div:nth-child(1) {
+  position: relative;
+  left: 50px; /* Adjust if needed */
+}
+
+/*Video classes box*/
+.content-boxes > div:nth-child(2) {
+  position: relative;
+  top: -200px; 
+  margin-bottom: -100px; 
+  left: 40px; /* Adjusted from -10px */
+  margin-right: -100px;
+}
+
+/*Books box*/
+.content-boxes > div:nth-child(3) {
+  position: relative;
+  top: 240px;
+  margin-bottom: 100px;
+  left: -250px; /* Adjusted from -300px */
+  margin-right: -100px;
+}
+
+.content-box {
+  position: relative;
+  width: 365px;
+  height: 408px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.content-box-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Vector bg */
+.content-icon {
+  position: relative;
+  top: 60px;
+  left: 150px;
+  z-index: 1;
+}
+
+.content-title {
+  position: relative;
+  text-align: center;  
+  left: 0px;
+  top: 100px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  color: #32435F;
+  z-index: 1;
+}
+
+.content-description {
+  position: relative;
+  text-align: center;  
+  width: 253px;
+  left: 55px;
+  top: 120px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #455880;
+  z-index: 1;
+  white-space: pre-line; /* Add this line to handle \n line breaks */
+}
+
+@media (max-width: 1200px) {
+  .about-us-text {
+    font-size: 48px;
+    left: 10%;
+    right: 50%;
+  }
+
+  .about-us-description {
+    width: 80%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-text {
+    font-size: 36px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+  }
+
+  .about-us-description {
+    width: 90%;
+    left: 5%;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-us-text {
+    font-size: 28px;
+    width: 90%;
+    left: 5%;
+  }
+
+  .content-boxes {
+    flex-direction: column;
+    gap: 20px;
+    left: 5%;
+    width: 90%;
+  }
+
+  .content-box {
+    width: 100%;
+  }
+}

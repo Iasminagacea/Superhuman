@@ -1,0 +1,425 @@
+:root {
+    --services-heading-default-width: 100%;
+    --services-heading-tablet-width: 80%;
+    --services-heading-mobile-font-size: 36px;
+    --services-heading-mobile-line-height: 45px;
+    --services-heading-position-left: 50%;
+    --transform-center: translateX(-50%);
+    --small-headline-left: 46.06%;
+    --small-headline-right: 42%;
+    --small-headline-top: 16.08%;
+    --small-headline-bottom: 83.07%;
+    --services-padding-top: 100px;
+  }
+
+  .services {
+    position: relative;
+    width: var(--services-heading-default-width);
+    padding-top: var(--services-padding-top);
+  }
+  
+  .small-headline {
+    position: absolute;
+    left: var(--small-headline-left);
+  right: var(--small-headline-right);
+  top: 135px;  
+  bottom: var(--small-headline-bottom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -23px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #FBEDE5;
+    opacity: 0.7;
+    border-radius: 7px;
+  }
+  
+  .headline-text {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #FF6602;
+    padding: 12px 20px;
+    z-index: 1;
+  }
+
+  .services-heading {
+    position: absolute;
+    width: 854px;
+    height: 151px;
+    left: 750px;
+    transform: translateX(-50%);
+    top: 240px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #32435F;
+  }
+
+  .bg-block1 {
+    position: absolute;
+    width: 365px;
+    height: 408px;
+    left: 180px;
+    top: 350px;
+    background: linear-gradient(180deg, #179AFB 0%, #6C63FF 100%);
+    box-shadow: 0px 4px 16px rgba(55, 81, 255, 0.29);
+    border-radius: 18px;
+    z-index: -1;
+  }
+
+  .bg-block2 {
+    position: absolute;
+    width: 365px;
+    height: 408px;
+    left: 580px;    
+    top: 350px;     
+    background: #FFFFFF; /* Changed from gradient to solid white */
+    box-shadow: 0px 4px 16px rgba(55, 81, 255, 0.29);
+    border-radius: 18px;
+    z-index: -1;
+  }
+
+  .bg-block3 {
+    position: absolute;
+    width: 365px;
+    height: 408px;
+    left: 980px;    
+    top: 350px;      
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(55, 81, 255, 0.29);
+    border-radius: 18px;
+    z-index: -1;
+  }
+
+  /* Add to Services.css */
+.path-container-2 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .path-image-2 {
+    position: absolute;
+    top: 60px;    /* Same positioning as path-image in block1 */
+    left: 55px;   /* Same positioning as path-image in block1 */
+    z-index: 1;
+  }
+
+  .path-container {
+    position: relative;
+    width: fit-content;
+  }
+
+  .path-image {
+    position: absolute;
+    top: 60px;    /* Distance from top */
+    left: 55px;   /* Distance from left */
+    z-index: 1;   /* Makes sure it appears above the gradient background */
+  }
+
+  .megaphone-image {
+    position: absolute;
+    top: 85px;    /* Adjust these values to position the megaphone */
+    left: 85px;   /* exactly where you want it inside the path */
+    z-index: 2;   /* Places megaphone above the path */
+  }
+
+  
+
+  .vector-block2 {
+    position: absolute;
+    left: 75px;     /* Changed from 90px to move left */
+    top: 75px;      /* Changed from 95px to move up */
+    z-index: 2;  /* To ensure it appears above the path */
+  }
+  
+
+  .block-title {
+    position: absolute;
+    height: 35px;
+    left: 18.44%;
+    right: 76.81%;
+    top: calc(50% - 35px/2 + 20px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    color: #FFFFFF;
+  }
+
+  .block-description {
+    position: absolute;
+    width: 253px;
+    height: 95px;
+    left: 18.44%;
+    top: calc(50% - 35px/2 + 90px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DBEDFF;
+  }
+
+  .block2-title {
+    position: absolute;
+    height: 35px;
+    left: 18.44%;
+    right: 51.5%;
+    top: calc(50% - 35px/2 + 20px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    color: #32435F;
+  }
+
+  .block2-description {
+    position: absolute;
+    width: 246px;
+    height: 95px;
+    left: 18.44%;
+    top: calc(50% - 35px/2 + 90px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+  }
+
+  .path-container-3 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .path-image-3 {
+    position: absolute;
+    top: 60px;    /* Same positioning as path-image-2 in block2 */
+    left: 55px;   /* Same positioning as path-image-2 in block2 */
+    z-index: 1;
+  }
+
+  .trophy-image {
+    position: absolute;
+    top: 88px;     /* Similar positioning as megaphone in block1 */
+    left: 85px;    /* Similar positioning as megaphone in block1 */
+    z-index: 2;    /* Places trophy above the path */
+  }
+
+  .block3-title {
+    position: absolute;
+    height: 35px;
+    left: 18.44%;
+    right: 24.38%;
+    top: calc(50% - 35px/2 + 20px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    color: #32435F;
+  }
+
+  .block3-description {
+    position: absolute;
+    width: 244px;
+    height: 95px;
+    left: 18.44%;
+    top: calc(50% - 35px/2 + 90px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+  }
+
+  @media (max-width: 1200px) {
+    .service-block {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 1000px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-block {
+      width: 90%;
+      height: auto;
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .small-headline {
+      left: 30%;
+      right: 30%;
+    }
+    
+    .headline-text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .small-headline {
+      left: 25%;
+      right: 25%;
+    }
+    
+    .headline-text {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .services-heading {
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services-heading {
+      font-size: 36px;
+      line-height: 45px;
+    }
+  }
+
+  /* Add these media queries at the bottom of Services.css */
+  @media (max-width: 1440px) {
+    .bg-block1, .bg-block2, .bg-block3 {
+      width: 300px;
+      height: 380px;
+    }
+  
+    .bg-block1 {
+      left: 180px;
+    }
+  
+    .bg-block2 {
+      left: 520px;
+    }
+  
+    .bg-block3 {
+      left: 860px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .services-heading {
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 42px;
+      line-height: 52px;
+    }
+  
+    .bg-block1, .bg-block2, .bg-block3 {
+      width: 280px;
+      height: 350px;
+    }
+  
+    .bg-block1 {
+      left: 50px;
+    }
+  
+    .bg-block2 {
+      left: calc(50% - 140px);
+    }
+  
+    .bg-block3 {
+      left: auto;
+      right: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      padding-bottom: 1200px;
+    }
+  
+    .services-heading {
+      font-size: 36px;
+      line-height: 44px;
+      width: 90%;
+      top: 120px;
+    }
+  
+    .bg-block1, .bg-block2, .bg-block3 {
+      width: 90%;
+      max-width: 365px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .bg-block1 {
+      top: 300px;
+    }
+  
+    .bg-block2 {
+      top: 740px;
+    }
+  
+    .bg-block3 {
+      top: 1180px;
+    }
+  
+    .small-headline {
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-heading {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .bg-block1, .bg-block2, .bg-block3 {
+      height: 320px;
+    }
+  
+    .block-title, .block2-title, .block3-title {
+      font-size: 24px;
+    }
+  
+    .block-description, .block2-description, .block3-description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .services-heading {
+      font-size: 28px;
+      line-height: 36px;
+      width: 95%;
+    }
+  
+    .bg-block1, .bg-block2, .bg-block3 {
+      width: 95%;
+      height: 300px;
+    }
+  }

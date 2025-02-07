@@ -1,0 +1,86 @@
+.metrics-section {
+    position: absolute;
+    width: 1170.64px;
+    height: 165.77px;
+    left: 215px;
+    top: 1909px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .metrics-item {
+    position: relative;
+    width: 225.64px;
+    height: 165.77px;
+    text-align: center;
+  }
+  
+  .metrics-icon {
+    position: absolute;
+    width: 33px;
+    height: 38px;
+    left: 60px;
+    top: 0;
+  }
+  
+  .metrics-number {
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62.2458px;
+    line-height: 58px;
+    text-align: center;
+    color: #32435F;
+    right:30px;
+  }
+  
+  .plus-sign {
+    font-size: 27.2326px;
+    line-height: 25px;
+    margin-left: 5px;
+  }
+  
+  .metrics-description {
+    position: absolute;
+    width: 100%;
+    top: 95px;
+    margin-top: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.397px;
+    line-height: 125%;
+    text-align: center;
+    color: #32435F;
+    right:30px;
+  }
+  
+  @media (max-width: 1200px) {
+    .metrics-section {
+      width: 90%;
+      left: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+  
+    .metrics-item {
+      width: calc(50% - 15px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .metrics-section {
+      height: auto;
+      top: 1700px;
+    }
+  
+    .metrics-item {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }

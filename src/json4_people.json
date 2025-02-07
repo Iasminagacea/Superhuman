@@ -1,0 +1,57 @@
+[
+    {
+        "image": "/Images/people_reviews/jane_doe.png",
+        "name": {
+            "first": "Jane",
+            "last": "Doe"
+        },
+        "review": "Jane's expertise in project management has been instrumental in delivering our projects on time and within budget.",
+        "company": "Tech Innovators Inc.",
+        "location": "San Francisco, CA",
+        "rate": 5
+    },
+    {
+        "image": "/Images/people_reviews/john_smith.jpg",
+        "name": {
+            "first": "John",
+            "last": "Smith"
+        },
+        "review": "John's creative approach to problem-solving has revolutionized our marketing strategies and boosted our results.",
+        "company": "Creative Solutions LLC",
+        "location": "New York, NY",
+        "rate": 4
+    },
+    {
+        "image": "/Images/people_reviews/emma_johnson.jpg",
+        "name": {
+            "first": "Emma",
+            "last": "Johnson"
+        },
+        "review": "Emma's leadership qualities and dedication to teamwork have inspired our entire organization.",
+        "company": "Visionary Enterprises",
+        "location": "Austin, TX",
+        "rate": 5
+    },
+    {
+        "image": "/Images/people_reviews/michael_brown.jpg",
+        "name": {
+            "first": "Michael",
+            "last": "Brown"
+        },
+        "review": "Michael's technical knowledge and attention to detail have significantly improved our product development process.",
+        "company": "Tech Pioneers",
+        "location": "Seattle, WA",
+        "rate": 4
+    },
+    {
+        "image": "/Images/people_reviews/sophia_williams.jpg",
+        "name": {
+            "first": "Sophia",
+            "last": "Williams"
+        },
+        "review": "Sophia's customer-first mindset has strengthened client relationships and enhanced our company's reputation.",
+        "company": "Customer Care Co.",
+        "location": "Chicago, IL",
+        "rate": 4.5
+    }
+]
